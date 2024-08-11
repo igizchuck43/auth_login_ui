@@ -1,3 +1,4 @@
+import 'package:auth_login_ui/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeDart(
+      theme: ThemeData(
         primaryColor: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      // home:
+      home: LoginScreen(),
     );
   }
 }
