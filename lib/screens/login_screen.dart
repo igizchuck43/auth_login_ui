@@ -5,6 +5,18 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.blueAccent,
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        title: Text(
+          "Login"
+        ),
+      ),
+      body: Container(
+
+        
+      ),
+    );
   }
 }
