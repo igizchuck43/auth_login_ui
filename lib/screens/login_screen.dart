@@ -118,7 +118,7 @@ class LoginScreen extends StatelessWidget {
                                 ),
                                 Container(
                                   child: Center(
-                                    
+
                                   ),
                                 )
                               ],
