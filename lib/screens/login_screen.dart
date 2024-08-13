@@ -118,7 +118,12 @@ class LoginScreen extends StatelessWidget {
                                 ),
                                 Container(
                                   child: Center(
-
+                                    child: TextButton(
+                                      onPressed: () {},
+                                      child: Text(
+                                        "Login"
+                                      ),
+                                    ),
                                   ),
                                 )
                               ],
